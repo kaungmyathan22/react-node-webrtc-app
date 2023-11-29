@@ -1,10 +1,16 @@
 import { useRoutes } from "react-router-dom";
+import Onboarding from "./features/onboarding/pages/Onboarding/Onboarding";
 
-function App() {
+function Routes() {
   const routes = useRoutes([
-
+    {
+      index: true,
+      element: <Onboarding />,
+    },
   ]);
-  return routes;
+  return <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>;
 }
 
-export default App;
+export default Routes;

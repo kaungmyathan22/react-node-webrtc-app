@@ -8,9 +8,7 @@ function Routes() {
       element: <Onboarding />,
     },
   ]);
-  return <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>;
+  return routes;
 }
 
 export default Routes;
